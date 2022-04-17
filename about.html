@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Loaft Interior</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+
+	<!-- For Icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+<!-- ===== ===== About Page HTML ===== ===== -->
+
+<!-- ----- Navigation Bar ----- -->
+<header>
+	<nav>
+		<div id="navLinks">
+			<i class="fas fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li class="dropdown" onclick="dropMenu()">
+					<a class="dropbtn">WORKS</a>
+					<div class="dropdown-content" id="dropId">
+						<a href="project.html">Project</a>
+						<a href="project-details.html">Project Details</a>
+					</div>
+				</li>
+				<li><a href="service.html">SERVICE</a></li>
+				<li class="dropdown" onclick="dropMenu2()">
+					<a class="dropbtn">BLOG</a>
+					<div class="dropdown-content" id="dropId2">
+						<a href="blog.html">Blog</a>
+						<a href="blog-details.html">Blog Details</a>
+					</div>
+				</li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i id="nav-icon" class="fas fa-bars" onclick="showMenu()"></i>
+	</nav>	
+
+	<div class="nav-logo">
+		<a href="index.html"><h2>Loaft</h2></a>
+	</div>
+</header>
+
+
+<!-- ----- Header Section ----- -->
+<section class="header about-header">
+	<div class="header-row d-flex">
+		<div class="header-col col">
+			<div class="owl-carousel owl-theme">
+				<div class="item">
+					<img src="images/common-banner.jpg.webp" style="width: 100%; height: auto;">
+				</div>
+			</div>
+		</div>
+		<div class="header-col-2 col">
+			<div>
+				<h1>About Us</h1>
+				<p>
+					If you are looking at blank cassettes on the web, you may be very confused at the difference in price.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="header-row-2 d-flex">
+		<a href="index.html"><h4>Home<img src="images/arrow.webp">About Us</h4></a>
+	</div>
+</section>
+
+<!-- ----- Services Section ----- -->
+<section class="p-t-150 w-82 about-service">
+	<div class="container">
+		<div class="service-col col s-c-2 w-48">
+			<h1>We Are <span>Loaft</span> <br>Top Services That <br>We Offers</h1>
+			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+			<img src="images/arrow.webp">
+		</div>
+	</div>
+
+	<div class="container d-flex pt-60">
+		<div class="service-col col service-img w-48">
+			<img src="images/xservice1.webp" style="width: 100%;">
+		</div>
+		<div class="service-col-2 col w-48">
+			<div class="service-box">
+				<h2>Our Memorable Story</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+			</div>
+			<div class="service-box pt-20">
+				<h2>Our Memorable Story</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+			</div>
+			<div class="service-box">
+				<div class="offers-item clear pt-20 d-flex">
+					<div class="offers-box">
+						<i class="fas fa-briefcase"></i>
+						<h4>768</h4>
+						<p>Projects done</p>
+					</div>
+					<div class="offers-box">
+						<i class="fas fa-briefcase"></i>
+						<h4>50+</h4>
+						<p>Expert Members</p>
+					</div>
+					<div class="offers-box">
+						<i class="fas fa-briefcase"></i>
+						<h4>25+</h4>
+						<p>Achievements</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Client’s Section -->
+<section class="padd-150 w-82 about-client">
+	<div class="container d-flex">
+		<div class="clients-col col w-48">
+			<div class="clients-item w-83 pt-60">
+				<img src="images/xquote.webp">
+				<p style="padding: 20px 0 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<p style="padding: 20px 0 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+				<div class="client-img">
+					<img src="images/xtesti-author.webp">
+					<div>
+						<h3>Marvel Maison</h3>
+						<p>Chief Executive,Amazon</p>
+					</div>
+				</div>
+			</div>
+			<div class="clients-item w-83 pt-60">
+				<div class="p-col-section-3 d-flex">
+					<div class="p-col-img">
+						<img src="images/download-1.webp" style="width: 100%;">
+					</div>
+					<div class="p-col-img">
+						<img src="images/download-2.webp" style="width: 100%;">
+					</div>
+					<div class="p-col-img">
+						<img src="images/download-3.webp" style="width: 100%;">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="clients-col col w-48">
+			<img src="images/xtesti-img.webp" style="width: 100%;">
+		</div>
+	</div>
+</section>
+
+<!-- Footer Section -->
+<footer class="padd-150">
+	<div class="container d-flex w-82">
+		<div class="footer-col">
+			<h2>About Me</h2>
+			<p class="pt-30">Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+			<p class="pt-30">Copyright ©2022 All rights reserved | This template is made with <i class="far fa-heart"></i> by <span>Rohit Saini</span></p>
+		</div>
+		<div class="footer-col">
+			<h2>Newsletter</h2>
+			<p class="pt-30">Stay updated with our latest trends</p>
+			<form class="pt-20">
+				<input type="email" name="Email" placeholder="Enter email address">
+				<button type="submit"><i class="fas fa-arrow-right"></i></button>
+			</form>
+		</div>
+		<div class="footer-col">
+			<h2>Follow Me</h2>
+			<p class="pt-30">Let us be social</p>
+			<div class="icons">
+				<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.google.com/"><i class="fab fa-chrome"></i></a>
+				<a href="https://www.behance.net/"><i class="fab fa-behance"></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+<script type="text/javascript">
+		// For Navigation Bar ----->
+		var navbar = document.getElementById("navLinks");
+		var icon = document.getElementById("nav-icon");
+
+		function showMenu() {
+			navbar.style.right = "0";
+			icon.style.display = "none";
+		}
+		function hideMenu() {
+			navbar.style.right = "-100%";
+			icon.style.display = "block";
+		}
+ 
+		function dropMenu() {
+			var ic = document.getElementById("dropId");
+				ic.style.display = "block";
+		}
+		function dropMenu2() {
+			var ic2 = document.getElementById("dropId2");
+				ic2.style.display = "block";
+		}
+	</script>
+
+
+</body>
+</html>

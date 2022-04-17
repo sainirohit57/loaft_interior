@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Loaft Interior</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+
+	<!-- For Icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+	<!-- For Slider -->
+	<link rel="stylesheet" href="./css/owl.carousel.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+		integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer">
+	</script>
+	<script src="./js/owl.carousel.min.js" data-cover></script>
+		
+</head>
+<body>
+<!-- ===== ===== Blog Page HTML ===== ===== -->
+
+<!-- ----- Navigation Bar ----- -->
+<header>
+	<nav>
+		<div id="navLinks">
+			<i class="fas fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li class="dropdown" onclick="dropMenu()">
+					<a class="dropbtn">WORKS</a>
+					<div class="dropdown-content" id="dropId">
+						<a href="project.html">Project</a>
+						<a href="project-details.html">Project Details</a>
+					</div>
+				</li>
+				<li><a href="service.html">SERVICE</a></li>
+				<li class="dropdown" onclick="dropMenu2()">
+					<a class="dropbtn">BLOG</a>
+					<div class="dropdown-content" id="dropId2">
+						<a href="blog.html">Blog</a>
+						<a href="blog-details.html">Blog Details</a>
+					</div>
+				</li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i id="nav-icon" class="fas fa-bars" onclick="showMenu()"></i>
+	</nav>	
+
+	<div class="nav-logo">
+		<a href="index.html"><h2>Loaft</h2></a>
+	</div>
+</header>
+
+<!-- ----- Header Section ----- -->
+<section class="header">
+		<div class="header-row d-flex">
+			<div class="header-col col">
+				<div class="owl-carousel owl-theme">
+					<div class="item">
+					<img src="images/xbanner-img1.webp" style="width: 100%; height: auto;">
+					</div>
+				</div>
+			</div>
+			<div class="header-col-2 col">
+				<div>
+					<h1>Precise Concept <span>design</span> for Posh <span>Living</span></h1>
+					<p>
+						If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each. You may be saying to yourself,
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="header-row-2 d-flex">
+			<a href="blog-details.html"><h3>Learn More About Precise Design</h3></a>
+			<a href="blog-details.html"><img src="images/arrow.webp"></a>
+		</div>
+</section>
+
+<!-- ----- Blog Section ----- -->
+<section class="p-t-150 w-82 blog-section">
+	<div class="container d-flex">
+
+		<div class="blog-sec-col col">
+			<div class="blog-container d-flex">
+				<div class="blog-left-container">
+					<a href=""><h3>Food, <span> Technology,</span> <br>Politics, Lifestyle</h3></a>
+					<div class="blog-div d-flex">
+						<a href="">Mark wiens <i class="far fa-user"></i></a>
+						<a href="">10 Feb, 2022 <i class="fas fa-calendar-alt"></i></a>
+						<a href="">1.2M Views <i class="far fa-eye"></i></a>
+						<a href="">06 Comments <i class="far fa-comment"></i></a>
+					</div>
+				</div>
+				<div class="blog-right-container">
+					<img src="images/xm-blog-1.jfif" style="width: 100%;">
+					<a href=""><h2>Astronomy Binoculars A Great Alternative</h2></a>
+					<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
+					<div class="btn-2">
+						<a href="blog-details.html">View More</a>
+					</div>
+				</div>
+			</div>
+			<div class="blog-container d-flex pt-40">
+				<div class="blog-left-container">
+					<a href=""><h3>Food, <span> Technology,</span> <br>Politics, Lifestyle</h3></a>
+					<div class="blog-div d-flex">
+						<a href="">Mark wiens <i class="far fa-user"></i></a>
+						<a href="">10 Feb, 2022 <i class="fas fa-calendar-alt"></i></a>
+						<a href="">1.2M Views <i class="far fa-eye"></i></a>
+						<a href="">06 Comments <i class="far fa-comment"></i></a>
+					</div>
+				</div>
+				<div class="blog-right-container">
+					<img src="images/xm-blog-2.webp" style="width: 100%;">
+					<a href=""><h2>The Basics Of Buying A Telescope</h2></a>
+					<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
+					<div class="btn-2">
+						<a href="blog-details.html">View More</a>
+					</div>
+				</div>
+			</div>
+			<div class="blog-container d-flex pt-40">
+				<div class="blog-left-container">
+					<a href=""><h3>Food, <span> Technology,</span> <br>Politics, Lifestyle</h3></a>
+					<div class="blog-div d-flex">
+						<a href="">Mark wiens <i class="far fa-user"></i></a>
+						<a href="">10 Feb, 2022 <i class="fas fa-calendar-alt"></i></a>
+						<a href="">1.2M Views <i class="far fa-eye"></i></a>
+						<a href="">06 Comments <i class="far fa-comment"></i></a>
+					</div>
+				</div>
+				<div class="blog-right-container">
+					<img src="images/xm-blog-3.webp" style="width: 100%;">
+					<a href=""><h2>The Glossary Of Telescopes</h2></a>
+					<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
+					<div class="btn-2">
+						<a href="blog-details.html">View More</a>
+					</div>
+				</div>
+			</div>
+			<div class="blog-container d-flex pt-40">
+				<div class="blog-left-container">
+					<a href=""><h3>Food, <span> Technology,</span> <br>Politics, Lifestyle</h3></a>
+					<div class="blog-div d-flex">
+						<a href="">Mark wiens <i class="far fa-user"></i></a>
+						<a href="">10 Feb, 2022 <i class="fas fa-calendar-alt"></i></a>
+						<a href="">1.2M Views <i class="far fa-eye"></i></a>
+						<a href="">06 Comments <i class="far fa-comment"></i></a>
+					</div>
+				</div>
+				<div class="blog-right-container">
+					<img src="images/xm-blog-4.webp" style="width: 100%;">
+					<a href=""><h2>The Night Sky</h2></a>
+					<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
+					<div class="btn-2">
+						<a href="blog-details.html">View More</a>
+					</div>
+				</div>
+			</div>
+			<div class="blog-container d-flex pt-40">
+				<div class="blog-left-container">
+					<a href=""><h3>Food, <span> Technology,</span> <br>Politics, Lifestyle</h3></a>
+					<div class="blog-div d-flex">
+						<a href="">Mark wiens <i class="far fa-user"></i></a>
+						<a href="">10 Feb, 2022 <i class="fas fa-calendar-alt"></i></a>
+						<a href="">1.2M Views <i class="far fa-eye"></i></a>
+						<a href="">06 Comments <i class="far fa-comment"></i></a>
+					</div>
+				</div>
+				<div class="blog-right-container">
+					<img src="images/xm-blog-5.webp" style="width: 100%;">
+					<a href=""><h2>Telescopes 101</h2></a>
+					<p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
+					<div class="btn-2">
+						<a href="blog-details.html">View More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="blog-sec-col-2 col">
+			<div class="blog-container-2">
+				<div class="search">
+					<input type="search" name="Search Box" placeholder="Search Posts">
+				</div>
+			</div>
+			<hr>
+			<div class="blog-container-2">
+				<img src="images/xauthor.png">
+				<h3>Charlie Barber</h3>
+				<p>Senior blog writer</p>
+				<div class="icons">
+					<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.google.com/"><i class="fab fa-chrome"></i></a>
+					<a href="https://www.behance.net/"><i class="fab fa-behance"></i></a>
+				</div>
+				<p class="pt-20">Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits detractors.</p>
+			</div>
+			<hr>
+			<div class="blog-container-2">
+				<h2 class="blog-h-box">Popular Posts</h2>
+				<div class="blog-img-gallery">
+					<img src="images/xpost1.webp">
+					<div>
+						<a href=""><h4>Space The Final Frontier</h4></a>
+						<p>02 Hours ago</p>
+					</div>
+				</div>
+				<div class="blog-img-gallery">
+					<img src="images/xpost2.webp">
+					<div>
+						<a href=""><h4>The Amazing Hubble</h4></a>
+						<p>02 Hours ago</p>
+					</div>
+				</div>
+				<div class="blog-img-gallery">
+					<img src="images/xpost3.webp">
+					<div>
+						<a href=""><h4>Astronomy Or Astrology</h4></a>
+						<p>03 Hours ago</p>
+					</div>
+				</div>
+				<div class="blog-img-gallery">
+					<img src="images/xpost4.webp">
+					<div>
+						<a href=""><h4>Asteroids telescope</h4></a>
+						<p>01 Hours ago</p>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="blog-container-2">
+				<img src="images/xpost-img1.jfif" style="width: 100%;">
+			</div>
+			<hr>
+			<div class="blog-container-2">
+				<h2 class="blog-h-box">Post Catgories</h2>
+				<div class="blog-posts d-flex">
+					<a href=""><p>Technology</p></a>
+					<a href=""><p>37</p></a>
+				</div>
+				<div class="blog-posts d-flex">
+					<a href=""><p>Lifestyle</p></a>
+					<a href=""><p>24</p></a>
+				</div>
+				<div class="blog-posts d-flex">
+					<a href=""><p>Fashion</p></a>
+					<a href=""><p>59</p></a>
+				</div>
+				<div class="blog-posts d-flex">
+					<a href=""><p>Art</p></a>
+					<a href=""><p>29</p></a>
+				</div>
+				<div class="blog-posts d-flex">
+					<a href=""><p>Technology</p></a>
+					<a href=""><p>37</p></a>
+				</div>
+				<div class="blog-posts d-flex">
+					<a href=""><p>Food</p></a>
+					<a href=""><p>15</p></a>
+				</div>
+				<div class="blog-posts d-flex">
+					<a href=""><p>Architecture</p></a>
+					<a href=""><p>09</p></a>
+				</div>
+				<div class="blog-posts d-flex">
+					<a href=""><p>Adventure</p></a>
+					<a href=""><p>44</p></a>
+				</div>
+			</div>
+			<hr>
+			<div class="blog-container-2">
+				<h2 class="blog-h-box">Newsletter</h2>
+				<p>Here, I focus on a range of items and features that we use in life without giving them a second thought.</p>
+				<form class="padd-20">
+					<input type="email" name="Email" placeholder="Enter email">
+					<button type="submit">Subscribe</i></button>
+				</form>
+				<p>You can unsubscribe at any time</p>
+			</div>
+			<hr>
+			<div class="blog-container-2">
+				<h2 class="blog-h-box">Tag Clouds</h2>
+				<div class="blog-tags">
+					<a href="">Technology</a>
+					<a href="">Fashion</a>
+					<a href="">Architecture</a>
+					<a href="">Fashion</a>
+					<a href="">Food</a>
+					<a href="">Technology</a>
+					<a href="">Lifestyle</a>
+					<a href="">Art</a>
+					<a href="">Adventure</a>
+					<a href="">Food</a>
+					<a href="">Lifestyle</a>
+					<a href="">Adventure</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<!-- ----- Pagination ----- -->
+<div class="pagination w-82 pt-60">
+  <a href="#">&laquo;</a>
+  <a href="#">01</a>
+  <a class="active" href="#">02</a>
+  <a href="#">03</a>
+  <a href="#">04</a>
+  <a href="#">09</a>
+  <a href="#">&raquo;</a>
+</div>
+
+<!-- Footer Section -->
+<footer class="padd-150">
+	<div class="container d-flex w-82">
+		<div class="footer-col col">
+			<h2>About Me</h2>
+			<p class="pt-30">Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+			<p class="pt-30">Copyright ©2022 All rights reserved | This template is made with <i class="far fa-heart"></i> by <span>Rohit Saini</span></p>
+		</div>
+		<div class="footer-col col">
+			<h2>Newsletter</h2>
+			<p class="pt-30">Stay updated with our latest trends</p>
+			<form class="pt-20">
+				<input type="email" name="Email" placeholder="Enter email address">
+				<button type="submit"><i class="fas fa-arrow-right"></i></button>
+			</form>
+		</div>
+		<div class="footer-col col">
+			<h2>Follow Me</h2>
+			<p class="pt-30">Let us be social</p>
+			<div class="icons">
+				<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.google.com/"><i class="fab fa-chrome"></i></a>
+				<a href="https://www.behance.net/"><i class="fab fa-behance"></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		// For Navigation Bar ----->
+		var navbar = document.getElementById("navLinks");
+		var icon = document.getElementById("nav-icon");
+
+		function showMenu() {
+			navbar.style.right = "0";
+			icon.style.display = "none";
+		}
+		function hideMenu() {
+			navbar.style.right = "-100%";
+			icon.style.display = "block";
+		}
+ 
+		function dropMenu() {
+			var ic = document.getElementById("dropId");
+				ic.style.display = "block";
+		}
+		function dropMenu2() {
+			var ic2 = document.getElementById("dropId2");
+				ic2.style.display = "block";
+		}
+
+
+		// For Slider ----->
+		$('.owl-carousel').owlCarousel({
+				loop: true,
+				margin: 0,
+				nav: true,
+				dots: true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					600: {
+						items: 1
+					},
+					1000: {
+						items: 1
+					}
+				}
+			})
+	</script>
+
+</body>
+</html>

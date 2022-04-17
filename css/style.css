@@ -1,0 +1,862 @@
+/* ===== ===== ===== Home Page CSS ===== ===== ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Roboto:wght@300;400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    line-height: 27px;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    color: #777;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Rajdhani",sans-serif;
+    font-weight: 600;
+    color: #222;
+}
+
+/* ===== Utilitity Classes ===== */
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.padd-150{
+    padding: 150px 0;
+}
+.p-t-150{
+    padding-top: 150px;
+}
+.p-t-100{
+    padding-top: 100px;
+}
+.pt-60{
+    padding-top: 60px;
+}
+.pb-60{
+    padding-bottom: 60px;
+}
+.pt-40{
+        padding-top: 40px;
+}
+.pb-40{
+        padding-bottom: 40px;
+}
+.pt-30{
+        padding-top: 30px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.padd-20{
+    padding: 20px 0;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.w-94{
+    width: 94%;
+    margin: auto;
+}
+.w-83{
+    width: 83%;
+}
+.w-82{
+    width: 82%;
+    margin: auto;
+}
+.w-70{
+    width: 70%!important;
+}
+.w-48{
+    width: 48.8%!important;
+}
+.f-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.a-right{
+    text-align: right;
+}
+
+/* ===== Navigation Bar ===== */
+#navLinks{
+	height: 100vh;
+    min-width: 34%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    display: flex;
+    align-items: center;
+    background: #f9f9ff;
+        opacity: .95;
+    z-index: 1111;
+}
+#navLinks ul{
+	width: 80px;
+    margin: auto;
+	list-style-type: none;
+}
+#navLinks ul li a{
+	text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bolder;
+        cursor: pointer;
+            display: block;
+    padding: 10px 0;
+    text-align: left;
+}
+nav .fas{
+	position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+    z-index: 110;
+    color: black;
+}   
+nav i#nav-icon{
+	position: fixed;
+}
+.dropdown-content{
+	display: none;
+}
+.dropdown-content a{
+    text-align: right!important;
+}
+.nav-logo{
+        position: absolute;
+    top: 25px;
+    right: 28.6%;
+        z-index: 1;
+}
+.nav-logo h2{
+        font-size: 25px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    user-select: none;
+}
+.nav-logo a{
+        text-decoration: none;
+}
+
+/* ===== Header Section ===== */
+.header{
+    position: relative;
+}
+.header-col{
+    width: 66%;
+        line-height: 0;
+    z-index: 2;
+}
+.header-col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+         user-select: none;
+    width: 33%;
+    /*padding: 0 30px;*/
+}
+.header-col-2 > div{
+        width: 80%;
+    margin: auto;
+}
+.header-col-2 h1{
+        font-size: 42px;
+    line-height: 1em;
+    /*font-weight: 400;*/
+}
+.header-col-2 p{
+        padding-top: 10px;
+}
+.header-row-2{
+        position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #f5d965;
+    width: 50%;
+    justify-content: space-around;
+        padding: 27px 0px;
+    align-items: center;
+    transition: 0.3s ease;
+        user-select: none;
+    z-index: 10;
+}
+.header-row-2:hover{
+    padding: 27px 60px;
+}
+.header-row-2 a{
+    text-decoration: none;
+}
+.header-row-2 h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+.header-row-2 img{
+        filter: brightness(0) invert(1);
+}
+
+/* ===== Project Section ===== */
+.container h1{
+    font-size: 42px;
+    line-height: 1.2em;
+}
+.container span, .header span{
+    color: #f6cd24;
+}
+.p-col-section p{
+        padding: 30px 0 20px;
+}
+.p-col-section-2, .p-col-section-4, .p-col-section-5{
+        position: relative;
+        line-height: 0;
+}
+.p-col-section-2{
+        padding-top: 130px;
+}
+.project-box{
+        position: absolute;
+    bottom: 0;
+    background-color: white;
+        padding: 40px 30px;
+    width: 58%;
+}
+.project-box h2{
+        line-height: 1.5em;
+    padding: 20px 0 30px;
+}
+.view-image img{
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+.view-image a{
+        text-decoration: none;
+    color: black;
+        transition: 0.3s ease-in-out;
+}
+.view-image a:hover{
+        color: #f6cd24;
+}
+.view-image a:hover img{
+    margin-left: 20px;
+}
+.p-col-section-3{
+    padding-top: 70px;
+}
+.p-col-img{
+    width: 22%;
+}
+.p-col-img img{
+        filter: grayscale(1);
+}
+.p-col-img img:hover{
+        filter: grayscale(0);
+}
+.p-col-section-5{
+        padding-top: 30px;
+}
+
+/* ===== Services Section ===== */
+.service-col p{
+        padding: 30px 0 20px;
+}
+.service-col-2{
+    width: 40%;
+}
+.service-box{
+    width: 80%;
+    clear: both;
+}
+.service-box p {
+    padding: 20px 0;
+}
+
+/* ===== Offers Section ===== */
+.offers-item{
+    width: 100%;
+}
+.offers-item p{
+        padding: 30px 0 20px;
+}
+.offers-item-img{
+    position: relative;
+}
+.offers-item-hover{
+       position: absolute;
+        top: 50%;
+    right: 0;
+    width: 140px;
+    background-color: white;
+    height: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;    
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.offers-item:hover img{
+    filter: brightness(0.5);
+    transition: 0.3s ease-in-out;
+}
+.offers-item:hover .offers-item-hover{
+    opacity: 1;
+    top: 0;
+}
+.offers-item:last-child{
+    width: 90%;
+}
+.offers-box{
+        min-width: 30%;
+    border: 1px solid #00000014;
+    text-align: center;
+    line-height: 3em;
+    padding: 25px 10px;
+}
+.offers-box i{
+        font-size: 22px;
+    color: #f6cd24;
+}
+.offers-box h4{
+        font-size: 34px;
+}
+.offers-box p{
+    padding: 0;
+}
+.offers-box:hover{
+    background-color: #f7d548;
+}
+.offers-box:hover i, .offers-box:hover h4, .offers-box:hover p{
+    color: white;
+    transition: 0.3s;
+}
+
+/* ===== Client’s Section ===== */
+.clients-item p{
+        padding: 30px 0 20px;
+}
+.client-img{
+        display: flex;
+    padding-top: 30px;
+}
+.client-img div{
+        margin-left: 20px;
+}
+.client-img p{
+        padding: 0;
+}
+
+/* ===== Blog Section ===== */
+.blog-item{
+    position: relative;
+}
+.blog-item > img{
+    filter: brightness(0.5);
+}
+.blog-box-1{
+    position: absolute;
+        top: 0;
+    right: 0;
+    background-color: white;
+    text-align: center;
+    padding: 30px 30px;
+}
+.blog-box-1 h4{
+    font-weight: 700;
+}
+.blog-box-1 p{
+        font-size: 12px;
+}
+.blog-box-2{
+        width: 70%;
+        position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+.blog-box-2 h2, .blog-box-2 p, .blog-box-2 a{
+    color: white;
+}
+.blog-box-2 p{
+    padding: 25px 0;
+}
+.blog-item-2{
+        background-color: #f1c651;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        width: 115%;
+         margin-top: 50px;
+}
+.blog-item-2 h2{
+        font-size: 32px;
+    line-height: 1.2em;
+    color: white;
+}
+.btn{
+        background-color: white;
+    padding: 10px 15px;
+}
+.btn a{
+        text-decoration: none;
+    color: black;
+        font-weight: 700;
+}
+.btn img{
+        margin-left: 5px;
+    width: 35px;
+}
+
+/* ====== Footer Section ===== */
+footer{
+        background-color: #090a1f;
+}
+.footer-col:first-child{
+    width: 40%;
+}
+.footer-col{
+        padding-right: 20px;
+}
+.footer-col h2{
+    color: white;
+}
+footer form input{
+        padding: 13px 15px;
+    width: 300px;
+    border: none;
+        outline: none;
+}
+footer form button{
+        padding: 13px 14px;
+    margin-left: -6px;
+    background-color: #f1d048;
+    border: none;
+}
+.icons i{
+    color: #e7e5e5;
+    margin-right: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.icons i:hover{
+    color: #f1d048;
+}
+
+
+/* ===== ===== ===== About Page CSS ===== ===== ===== */
+
+/* ===== Header Section ===== */
+.about-header .header-col-2{
+            padding: 40px 2px 70px 6px;
+        user-select: text;
+}
+.about-header .header-col-2 h1 {
+        font-size: 40px;
+    }
+.about-header .header-col-2 p{
+    padding-top: 10px;
+}
+.about-header .header-row-2 {
+    width: 34%;
+    bottom: 0;
+            background-color: #f5ca56;
+        padding: 20px 0px;
+}
+.about-header .header-row-2 h4 {
+    color: white;
+        align-items: center;
+    display: flex;
+}
+.about-header .header-row-2 img {
+        margin: 0 10px;
+}
+
+/* ===== Service Section ===== */
+.about-service .service-box > p:last-child{
+    padding: 0;
+}
+.about-service .service-box:last-child{
+    width: 100%;
+}
+
+/* ===== Client’s Section ===== */
+.about-client .p-col-section-3 {
+     padding-top: 0!important; 
+}
+
+
+/* ===== ===== ===== Project Page CSS ===== ===== ===== */
+.project-section .p-col-section-3{
+    position: relative;
+}
+.project-section .p-col-section-3 .header-row-2{
+        width: 100%;
+    bottom: -80px;
+    background-color: #edc151;
+}
+
+
+/* ===== ===== ===== Project Details Page CSS ===== ===== ===== */
+.project-details-section .service-box{
+    width: 100%;
+}
+.project-details-section .service-box p {
+     padding: 0; 
+    padding-top: 12px;
+}
+.project-details-section .service-box h2 {
+    padding-bottom: 10px;
+}
+.project-details-section table{
+    /*width: 160px;*/
+}
+.project-details-section table th{
+   padding-right: 30px;
+       text-align: left;
+       color: black;
+        font-weight: 400;
+}
+.project-details-section table i{
+   color: #edef2d;
+}
+.project-details-section .icons i{
+   color: black;
+}
+
+
+/* ===== ===== ===== Blog Page CSS ===== ===== ===== */
+.blog-sec-col{
+    width: 66%;
+}
+.blog-left-container{
+        flex-basis: 28%;
+        text-align: right;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+.blog-container a{
+    text-decoration: none;
+}
+.blog-div{
+    flex-direction: column;
+    padding-top: 20px;
+}
+.blog-div a{
+    color: #777;
+}
+.blog-div a:hover{
+        color: #f6cd24;
+}
+.blog-div i{
+        margin-left: 10px;
+    font-size: 16px;
+    color: #2f2d2d;
+}
+.blog-right-container{
+        flex-basis: 80%;
+}
+.blog-right-container h2{
+    padding: 13px 0;
+    transition: 0.3s;
+}
+.blog-right-container h2:hover{
+    color: #f6cd24;
+}
+.btn-2{
+        display: inline-block;
+    margin-top: 20px;
+}
+.btn-2 a{
+        font-size: 13px;
+    color: black;
+    display: block;
+    border-radius: 6px;
+    padding: 5px 30px;
+    background-color: #faf9f7;
+    border: 1px solid beige;
+    transition: 0.3s;
+}
+.btn-2 a:hover{
+    color: white;
+    background-color: #e9c221;
+}
+.blog-sec-col-2{
+    width: 30%;
+        height: fit-content;
+    border: 1px solid #e7e1e1;
+    background-color: #fafaff;
+    padding: 34px 20px;
+    text-align: center;
+}
+.blog-sec-col-2 hr{
+        margin: 30px 0;
+    border: none;
+    border-bottom: 1px solid #dfd7d7b8;
+}
+.search input{
+        padding: 10px 20px;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    background-color: #f5ca56;
+    outline: none;
+}
+.blog-container-2 .icons i{
+    color: black!important;
+}
+.blog-container-2 h2.blog-h-box{
+        color: white;
+    background-color: #f6bf54;
+    padding: 7px 0;
+    font-size: 18px;
+        margin-bottom: 30px;
+}
+.blog-img-gallery{
+        display: flex;
+    text-align: left;
+       margin: 20px 0;
+    line-height: 24px;
+    align-items: center;
+}
+.blog-img-gallery img{
+        margin-right: 20px;
+}
+.blog-img-gallery a, .blog-posts a{
+        text-decoration: none;
+}
+.blog-img-gallery a:hover h4{
+    color: #f6cd24;
+    transition: 0.3s;
+}
+.blog-posts{
+        border-bottom: 1px dashed #dbdbdb;
+        padding: 10px 0;
+}
+.blog-posts a{
+        color: #777;
+}
+.blog-posts:hover p, .blog-posts:hover{
+        color: #f6cd24;
+        transition: 0.3s;
+}
+.blog-container-2 form input{
+    padding: 9px 10px;
+        border: 1px solid #efefef;
+    outline: none;
+        width: 59%;
+    font-size: 12px;
+}
+.blog-container-2 form button{
+        padding: 10px 14px;
+    border: 1px solid #f6bf54;
+    background-color: #f6bf54;
+    font-size: 12px;
+    color: white;
+    margin-left: -4px;
+    cursor: pointer;
+}
+.blog-tags{
+    text-align: left;
+}
+.blog-tags a{
+        text-decoration: none;
+        padding: 0px 14px;;
+        border: 1px solid #efefef;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+        display: inline-block;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.blog-tags a:hover{
+        background: #f5ca56;
+        color: white;
+}
+.pagination {
+      display: flex;
+    justify-content: center;
+        padding-bottom: 150px;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 6px 13px;
+  text-decoration: none;
+}
+.pagination a.active {
+  background-color: #f6bf54;
+    color: white;
+}
+.pagination a:hover:not(.active) {
+        color: white;
+    background-color: #F6BF53;
+}
+
+/* ===== ===== Blog Details Page CSS ===== ===== */
+.blog-details-section p{
+    padding-top: 10px;
+}
+.blog-details-section h2{
+    padding: 0;
+    padding-top: 35px;
+}
+.blog-details-section .icons i {
+    color: #c7c7c7;
+    margin-top: 22px;
+}
+.blog-details-container{
+    padding: 50px 0 30px;
+}
+.blog-details-container p{
+    box-shadow: -17px 17px 20px -18px #e3e0e0;
+    padding: 0;
+    padding: 0 30px 30px;
+}
+.blog-details-section hr{
+        margin: 30px 0;
+    border: none;
+    border-bottom: 1px solid #dfd7d7b8;
+}
+.prev-post, .next-post, .comment-col{
+    display: flex;
+}
+.prev-post img, .comment-col img{
+        margin-right: 20px;
+}
+.next-post{
+        text-align: right;
+}
+.next-post img{
+    margin-left: 20px;
+}
+.blog-details-container-2{
+    background-color: #fafaff;
+        padding: 50px 30px;
+            margin: 60px 0;
+                border: 1px solid #e7e1e1;
+}
+.blog-details-container-2 h2{
+        text-align: center;
+    padding: 0;
+    font-size: 20px;
+}
+.blog-details-container-2 > p{
+    padding: 0;
+    padding-left: 80px;
+}
+.comment-col{
+    padding-top: 50px;
+}
+.comment-col p{
+    padding: 0;
+    font-size: 13px;
+    color: #bbb9b9;
+}
+.comment-col .btn {
+    padding: 0px;
+    height: fit-content;
+    font-size: 12px;
+}
+.comment-col .btn a{
+        padding: 2px 17px;
+    display: block;
+    transition: 0.3s;
+}
+.comment-col .btn a:hover{
+        color: white;
+    background-color: #f6bf54;
+}
+.blog-form{
+        width: 66%;
+            background-color: #fafaff;
+    padding: 30px 30px;
+    border: 1px solid #e7e1e1;
+        margin-bottom: 150px;
+}
+.blog-form h2{
+     text-align: center;
+    padding: 0;
+    font-size: 20px;
+}
+.blog-form input, .blog-form textarea, .contact-col-2 input, .contact-col-2 textarea{
+        padding: 9px 10px;
+        border: none;
+    outline: none;
+    width: 48%;
+    font-size: 12px;
+        margin: 10px 0;
+}
+.blog-form textarea{
+    width: 100%;
+     resize: none;
+     font-family: "Roboto",sans-serif;
+}
+.blog-form [type="email"]{
+    float: right;
+}
+.blog-form [name="Subject"]{
+    width: 100%;
+}
+.blog-form button, .contact-col-2 button{
+        padding: 15px 40px;
+    color: white;
+    background-color: #f6bf54;
+    border: 1px solid #f6bf54;
+    border-radius: 6px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.blog-form button:hover, .contact-col-2 button:hover{
+    color: #f6bf54;
+    background-color: transparent;
+}
+
+/*  ===== ===== Contact Page CSS ===== =====  */
+.contact-col{
+    width: 25%;
+}
+.contact-section i{
+        margin-right: 20px;
+    font-size: 18px;
+    color: #f6bf54;
+    padding-top: 5px;
+}
+.contact-section .contact-box{
+        margin-bottom: 20px;
+        justify-content: flex-start;
+}
+.contact-section .contact-box a{
+    text-decoration: none;
+}
+.contact-col-2{
+    width: 75%;
+        padding: 0 10px;
+}
+.contact-col-2 input, .contact-col-2 textarea{
+    border: 1px solid #e7e1e1;
+    width: 100%;
+    margin: 6px 0;
+    resize: none;
+     font-family: "Roboto",sans-serif;
+}
+.contact-form-left, .contact-form-right{
+    width: 48%;
+}
+.contact-col-2 button{
+        float: right;
+    margin-top: 15px;
+}
